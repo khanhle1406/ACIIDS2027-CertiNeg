@@ -1,0 +1,21 @@
+{
+  "seed": 20261026,
+  "targets": [
+    "ELECTRICAL SYSTEM",
+    "POWER TRAIN",
+    "ENGINE",
+    "STEERING",
+    "SERVICE BRAKES",
+    "STRUCTURE",
+    "AIR BAGS",
+    "ENGINE AND ENGINE COOLING",
+    "VEHICLE SPEED CONTROL",
+    "VISIBILITY/WIPER",
+    "FUEL/PROPULSION SYSTEM",
+    "FORWARD COLLISION AVOIDANCE",
+    "EXTERIOR LIGHTING",
+    "FUEL SYSTEM",
+    "SUSPENSION"
+  ],
+  "data_dir": "/mnt/data/_sembench_full/full_data"
+}

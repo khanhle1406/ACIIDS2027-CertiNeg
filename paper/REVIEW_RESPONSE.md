@@ -1,0 +1,12 @@
+# Response to the v7 technical review — changes in v8
+
+1. **Audit outcomes for the complete predicate screen.** The paper now audits every one of the 15 disclosed predicates at approximately 35% budget and reports nonempty-certificate rate, mean retention, and unsafe-return rate. This restores the SERVICE BRAKES negative result to the main paper and extends the same diagnostic to all screen rows. Cases with `O5=0` visibly abstain almost always; FORWARD COLLISION AVOIDANCE and SUSPENSION provide intermediate safe-prefix regimes; FUEL SYSTEM provides a full-output-safe regime.
+2. **Seed consistency.** The four starred workloads in the complete screen use the same fixed audit streams as the focused primary table, so AIR BAGS remains 0.630, ENGINE+COOLING 0.549, VISIBILITY/WIPER 0.708, and EXTERIOR LIGHTING 0.789.
+3. **Audit planning.** Added a prospective exact-power rule: for target size `Nk`, design FDP `q0<epsilon`, and desired power `1-beta`, sum the hypergeometric probability mass over outcomes that certify. The smallest `nk` reaching the desired power is the target-set audit requirement; `E[nk]=n Nk/NK` initializes the shared outer-sample budget. An illustrative 874-group target at `q0=.07`, `(epsilon,delta)=(.10,.05)` needs 334 direct audits for at least 80% power.
+4. **Contribution framing.** Repeated statements that individual ingredients are standard were removed from Abstract/Results. Prior-art boundaries remain explicit once in Related Work and once in the Discussion novelty paragraph.
+5. **K=5 wording.** Replaced “the numbers should therefore not coincide” with the direct statement that the uniform K=5 family is not comparable to the original family used in the main tables.
+6. **Predicate naming.** `ENGINE AND ENGINE COOLING` is now consistently abbreviated as `ENGINE+COOLING` in prose and `ENG.+COOL.` only where table width requires it.
+7. **Artifact availability.** The paper no longer says “we release” without a public URL; it refers to the reproducibility package. No public repository was created automatically because that can de-anonymize the authors. README documents the one remaining pre-submission choice: publish the ZIP at a reviewer-safe persistent URL if venue policy permits.
+8. **Page budget and QA.** The new evidence remains within 15 LNCS pages without template changes. Two exhaustive tests pass; the PDF has no unresolved citations, overfull boxes, encryption, or scan-only pages.
+
+The principal systems limitation remains the lack of a true LLM/VLM executor; no such result was fabricated.

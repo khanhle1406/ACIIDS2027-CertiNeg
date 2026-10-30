@@ -1,0 +1,27 @@
+{
+  "apps": [
+    {
+      "app_id": "ap-tOs9ggGMcn4b5NOeLYLzD5",
+      "whole_app_wall_seconds": 99.0,
+      "usd_per_second_cap": 0.00026596,
+      "conservative_compute_usd": 0.02633004
+    },
+    {
+      "app_id": "ap-ZRyPlcXktq6wzCAs7oSGNB",
+      "whole_app_wall_seconds": 229.0,
+      "usd_per_second_cap": 0.00026596,
+      "conservative_compute_usd": 0.060904839999999995
+    },
+    {
+      "app_id": "ap-Pxm3QiemNeaGC1hGjwYmmC",
+      "whole_app_wall_seconds": 1066.0,
+      "usd_per_second_cap": 0.00020796,
+      "conservative_compute_usd": 0.22168536
+    }
+  ],
+  "whole_app_compute_estimate_usd": 0.30892024,
+  "additional_reserve_usd": 0.25,
+  "total_with_reserve_usd": 0.55892024,
+  "invoice_verified": false,
+  "notes": "Whole app duration includes image building and queue time, conservatively priced as capped GPU/CPU/RAM allocation. No other paid experiment calls. Initial startup failure and cancelled L4 queue included."
+}

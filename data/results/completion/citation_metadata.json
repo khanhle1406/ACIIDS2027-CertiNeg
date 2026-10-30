@@ -1,0 +1,445 @@
+{
+  "10.1145/3769776": {
+    "title": [
+      "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9789-7197",
+        "authenticated-orcid": false,
+        "given": "Sepanta",
+        "family": "Zeighami",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "UC Berkeley, Berkeley, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0919-9672",
+        "authenticated-orcid": false,
+        "given": "Shreya",
+        "family": "Shankar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UC Berkeley, Berkeley, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4538-4752",
+        "authenticated-orcid": false,
+        "given": "Aditya",
+        "family": "Parameswaran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UC Berkeley, Berkeley, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the ACM on Management of Data"
+    ],
+    "volume": "3",
+    "issue": "6",
+    "page": "1-26",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          4
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1145/3769776"
+  },
+  "10.1214/24-AOAS1998": {
+    "title": [
+      "Learn then test: Calibrating predictive algorithms to achieve risk control"
+    ],
+    "author": [
+      {
+        "given": "Anastasios N.",
+        "family": "Angelopoulos",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering and Computer Science, University of California, Berkeley"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stephen",
+        "family": "Bates",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emmanuel J.",
+        "family": "Cand\u00e8s",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, Stanford University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael I.",
+        "family": "Jordan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering and Computer Science, University of California, Berkeley"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lihua",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Stanford Graduate School of Business"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "The Annals of Applied Statistics"
+    ],
+    "volume": "19",
+    "issue": "2",
+    "page": "1641-1662",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1214/24-aoas1998"
+  },
+  "10.14778/3811243.3811249": {
+    "title": [
+      "SemBench: A Benchmark for Semantic Query Processing Engines"
+    ],
+    "author": [
+      {
+        "given": "Jiale",
+        "family": "Lao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Cornell University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Zimmerer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Technology Nuremberg"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olga",
+        "family": "Ovcharenko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BIFOLD &amp; TU Berlin"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianji",
+        "family": "Cong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Michigan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew",
+        "family": "Russo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MIT CSAIL"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerardo",
+        "family": "Vitagliano",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MIT CSAIL"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Cochez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vrije Universiteit Amsterdam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fatma",
+        "family": "\u00d6zcan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gautam",
+        "family": "Gupta",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thibaud",
+        "family": "Hottelier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H. V.",
+        "family": "Jagadish",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Michigan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kris",
+        "family": "Kissel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sebastian",
+        "family": "Schelter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BIFOLD &amp; TU Berlin"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Kipf",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Technology Nuremberg"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Immanuel",
+        "family": "Trummer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the VLDB Endowment"
+    ],
+    "volume": "19",
+    "issue": "8",
+    "page": "1754-1767",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.14778/3811243.3811249"
+  }
+}

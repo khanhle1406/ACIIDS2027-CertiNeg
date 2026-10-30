@@ -1,0 +1,25 @@
+section,name,metric,value,detail
+controlled_baseline,Equal simultaneous,mean_retention,0.766425,viol=0.0; census_cost=0.6663
+controlled_baseline,Fixed full-output SRS,mean_retention,0.0,viol=0.0; census_cost=0.6663
+controlled_baseline,Fixed-sequence ordered,mean_retention,0.792,viol=0.0; census_cost=0.6663
+controlled_baseline,Independent sample split,mean_retention,0.485625,viol=0.0; census_cost=0.6597
+controlled_baseline,Retention-weighted simultaneous,mean_retention,0.77025,viol=0.0; census_cost=0.6663
+sembench_primary,AIR BAGS,mean_retention,0.6304666056724612,F1=0.8264; groups=1093; FDP=0.1546; viol=0/2000
+sembench_primary,ENGINE AND ENGINE COOLING,mean_retention,0.5494749999999999,F1=0.7867; groups=1100; FDP=0.1464; viol=0/2000
+sembench_primary,VISIBILITY/WIPER,mean_retention,0.707514005602241,F1=0.7639; groups=1428; FDP=0.1695; viol=0/2000
+sembench_primary,EXTERIOR LIGHTING,mean_retention,0.7889762629336581,F1=0.7240; groups=1643; FDP=0.1461; viol=0/2000
+sembench_multiseed,AIR BAGS,retention_mean_across_splits,0.6408754384254841,sd=0.038587
+sembench_multiseed,AIR BAGS,candidate_fdp_mean_across_splits,0.1614608301511519,sd=0.006775
+sembench_multiseed,AIR BAGS,false_certificates,0.0,randomizations=10000
+predicate_screen,Top-15 frequent classes,screened_predicates,15.0,candidate_groups_range=5-1693
+predicate_screen,Primary comparability filter,selected_predicates,4.0,N>=1000; candidate FDP>0.10; safe 80% coarse prefix
+epsilon_delta_sweep,"eps=0.05,delta=0.01",mean_retention,0.0186806953339432,oracle=0.600; viol=0/2000
+epsilon_delta_sweep,"eps=0.05,delta=0.05",mean_retention,0.075623055809698,oracle=0.600; viol=0/2000
+epsilon_delta_sweep,"eps=0.05,delta=0.10",mean_retention,0.1349661482159194,oracle=0.600; viol=0/2000
+epsilon_delta_sweep,"eps=0.10,delta=0.01",mean_retention,0.4905361390667886,oracle=0.800; viol=0/2000
+epsilon_delta_sweep,"eps=0.10,delta=0.05",mean_retention,0.6304666056724612,oracle=0.800; viol=0/2000
+epsilon_delta_sweep,"eps=0.10,delta=0.10",mean_retention,0.677846294602013,oracle=0.800; viol=0/2000
+epsilon_delta_sweep,"eps=0.20,delta=0.01",mean_retention,0.9302726440988108,oracle=1.000; viol=0/2000
+epsilon_delta_sweep,"eps=0.20,delta=0.05",mean_retention,0.9705462031107044,oracle=1.000; viol=0/2000
+epsilon_delta_sweep,"eps=0.20,delta=0.10",mean_retention,0.9882785910338518,oracle=1.000; viol=0/2000
+tightness,boundary,exact_false_cert_probability,0.0497445701904184,"N=1200,n=800,M=121,fdp=0.100833"

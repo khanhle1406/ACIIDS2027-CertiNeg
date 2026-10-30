@@ -1,0 +1,4 @@
+method,mean_selected_fraction,median_selected_fraction,violation_count,mean_proxy_label_cost
+equal_simultaneous,0.5764656907593778,0.6001829826166514,0,7098.8075
+fixed_sequence,0.636010978956999,0.6001829826166514,0,7098.8075
+retention_weighted,0.5720768526989936,0.6001829826166514,0,7098.8075

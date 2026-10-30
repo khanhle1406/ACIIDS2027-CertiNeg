@@ -1,0 +1,32 @@
+{
+  "R": 2000,
+  "epsilon": 0.1,
+  "delta": 0.05,
+  "outer_sample_n": 800,
+  "fractions": [
+    0.3,
+    0.45,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "true_fdp_by_fraction": [
+    0.041666666666666664,
+    0.05,
+    0.06527777777777778,
+    0.078125,
+    0.11583333333333333
+  ],
+  "violation_count": 0,
+  "violation_rate": 0.0,
+  "violation_cp95_upper": 0.0014967448951882837,
+  "median_chosen_fraction": 0.8,
+  "mean_chosen_fraction": 0.7664250000000001,
+  "proxy_cost_mean": 30410.378,
+  "random_cost_mean": 31920.545041666664,
+  "proxy_cost_saving_pct": 4.731018971309564,
+  "candidate_N": 1200,
+  "candidate_true_fdp": 0.11583333333333333,
+  "group_size_median": 25.0,
+  "group_size_p95": 138.0
+}

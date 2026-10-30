@@ -1,0 +1,7 @@
+{
+  "row_recall": 0.9176090468497576,
+  "candidate_groups": 586,
+  "group_false_absence_fdp": 0.10238907849829351,
+  "positive_groups": 936,
+  "total_groups": 1500
+}

@@ -1,0 +1,2 @@
+N,n,epsilon,delta,M,true_fdp,exact_false_cert_probability
+1200,800,0.1,0.05,121,0.10083333333333333,0.04974457019041844

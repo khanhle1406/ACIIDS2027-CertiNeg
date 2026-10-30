@@ -1,0 +1,10 @@
+{
+  "files": [
+    "sembench_all_predicate_audits_r8.csv",
+    "strong_baseline_summary.csv",
+    "boundary_tightness.csv"
+  ],
+  "status": "matched",
+  "rtol": 1e-12,
+  "atol": 1e-12
+}

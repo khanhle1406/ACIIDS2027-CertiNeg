@@ -1,0 +1,6 @@
+method,mean_returned_fraction,median_returned_fraction,p_return_nonempty,violation_rate,mean_unique_groups,mean_proxy_label_cost,label_cost_vs_census
+Equal simultaneous,0.766425,0.8,1.0,0.0,800.0,30410.378,0.6663389719093737
+Fixed full-output SRS,0.0,0.0,0.0,0.0,800.0,30410.378,0.6663389719093737
+Fixed-sequence ordered,0.792,0.8,1.0,0.0,800.0,30410.378,0.6663389719093737
+Independent sample split,0.485625,0.6,0.7165,0.0,791.332,30106.77,0.659686445505938
+Retention-weighted simultaneous,0.77025,0.8,1.0,0.0,800.0,30410.378,0.6663389719093737

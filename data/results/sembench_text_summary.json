@@ -1,0 +1,64 @@
+{
+  "dataset_rows_total": 157269,
+  "test_rows": 54892,
+  "target": "AIR BAGS",
+  "classifier": "TF-IDF unigram (20k features) + SGD logistic loss",
+  "threshold": 0.9248144042772267,
+  "test_precision": 0.8538189175518462,
+  "test_recall": 0.8007590132827325,
+  "test_f1": 0.826438188494492,
+  "test_auc": 0.9911314120833581,
+  "group_key": "country, year, fuel_type",
+  "group_disjoint_split": true,
+  "candidate_negative_groups": 1093,
+  "candidate_true_fdp": 0.1546203110704483,
+  "candidate_group_size_median": 21.0,
+  "candidate_group_size_p95": 30.0,
+  "nested_fractions": [
+    0.3,
+    0.45,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "nested_true_fdps": [
+    0.03353658536585366,
+    0.03861788617886179,
+    0.04878048780487805,
+    0.08352402745995423,
+    0.1546203110704483
+  ],
+  "audit_n": 383,
+  "R": 2000,
+  "epsilon": 0.1,
+  "delta": 0.05,
+  "primary_selection_method": "fixed_sequence",
+  "mean_selected_fraction": 0.6360109789569991,
+  "median_selected_fraction": 0.6001829826166514,
+  "violation_count": 0,
+  "violation_rate": 0.0,
+  "mean_proxy_label_cost": 7098.8075,
+  "mean_random_expected_cost": 7670.148333333333,
+  "inner_cost_saving_pct": 0.07448888971942957,
+  "selected_fraction_counts": {
+    "0.0": 68,
+    "0.3000914913083257": 9,
+    "0.4501372369624886": 30,
+    "0.6001829826166514": 1293,
+    "0.7996340347666971": 600
+  },
+  "census_proxy_label_cost": 20269,
+  "audit_proxy_cost_vs_census": 0.3502297843998224,
+  "method_mean_selected_fraction": {
+    "equal_simultaneous": 0.5764656907593778,
+    "fixed_sequence": 0.636010978956999,
+    "retention_weighted": 0.5720768526989936
+  },
+  "weighted_alpha_weights": [
+    0.09523809523809522,
+    0.14285714285714285,
+    0.19047619047619044,
+    0.25396825396825395,
+    0.31746031746031744
+  ]
+}

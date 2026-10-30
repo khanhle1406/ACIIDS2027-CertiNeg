@@ -1,0 +1,9 @@
+{
+  "parent_blocks": 80,
+  "input_rows": 9018,
+  "scores": 18036,
+  "workload_cells": 32,
+  "truncated_fraction": 0.01752051452650255,
+  "remote_elapsed_seconds": 1021.6394815809999,
+  "status": "verified"
+}

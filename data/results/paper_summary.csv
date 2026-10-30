@@ -1,0 +1,11 @@
+section,metric,value,note
+controlled_baseline,Equal simultaneous,0.766425,cost_vs_census=0.6663; violation_rate=0.0000
+controlled_baseline,Fixed full-output SRS,0.0,cost_vs_census=0.6663; violation_rate=0.0000
+controlled_baseline,Fixed-sequence ordered,0.792,cost_vs_census=0.6663; violation_rate=0.0000
+controlled_baseline,Independent sample split,0.485625,cost_vs_census=0.6597; violation_rate=0.0000
+controlled_baseline,Retention-weighted simultaneous,0.77025,cost_vs_census=0.6663; violation_rate=0.0000
+tightness,boundary_exact_false_cert_probability,0.0497445701904184,"N=1200, n=800, M=121, true_fdp=0.100833"
+sembench,candidate_true_fdp,0.1546203110704483,1093 predicted-negative groups
+sembench,fixed_sequence_mean_retention,0.6360109789569991,R=2000
+sembench,audit_cost_vs_census,0.3502297843998224,7098.8/20269 labels
+sembench,proxy_inner_cost_saving,0.07448888971942957,vs expected random within-group order

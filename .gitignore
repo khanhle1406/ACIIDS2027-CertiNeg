@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+.env.*
+!.env.example
+# External dataset and local historical exports
+data/raw/
+archive/
+# Local execution and account metadata
+data/results/completion/modal_apps.json
+data/results/completion/local_environment.json
+# LaTeX build intermediates
+paper/latex/*.aux
+paper/latex/*.log
+paper/latex/*.out
+paper/latex/*.blg
+paper/latex/*.bbl

@@ -1,0 +1,20 @@
+ruff check paper/experiments/run_ablations.py paper/experiments/screen_sembench_predicates_with_groups.py paper/experiments/screen_sembench_predicates.py paper/experiments/run_all_predicate_audits.py paper/experiments/run_stronger_baselines.py paper/experiments/completion_llm.py paper/experiments/completion_baseline.py paper/experiments/run_revision6_consistency.py paper/experiments/run_revision5_audits.py paper/experiments/run_sembench_multiseed.py paper/experiments/make_revision6_figures.py paper/experiments/make_revision5_figures.py paper/experiments/cache_sembench_predicates.py paper/experiments/run_sembench_text.py paper/experiments/completion_evaluate.py paper/experiments/run_revision7_eps_delta.py paper/experiments/run_sembench_one_seed.py paper/experiments/run_revision6_sembench_audits.py paper/experiments/recompute_curve_only.py paper/experiments/run_experiments.py paper/experiments/cache_sembench_predicates_r6.py paper/experiments/audit_planning.py paper/experiments/completion_verify.py paper/experiments/completion_data.py paper/experiments/run_revision5_experiments.py paper/tests/test_exact.py paper/tests/test_protocol.py paper/src/certineg.py
+All checks passed!
+
+ruff format --check paper/experiments/run_ablations.py paper/experiments/screen_sembench_predicates_with_groups.py paper/experiments/screen_sembench_predicates.py paper/experiments/run_all_predicate_audits.py paper/experiments/run_stronger_baselines.py paper/experiments/completion_llm.py paper/experiments/completion_baseline.py paper/experiments/run_revision6_consistency.py paper/experiments/run_revision5_audits.py paper/experiments/run_sembench_multiseed.py paper/experiments/make_revision6_figures.py paper/experiments/make_revision5_figures.py paper/experiments/cache_sembench_predicates.py paper/experiments/run_sembench_text.py paper/experiments/completion_evaluate.py paper/experiments/run_revision7_eps_delta.py paper/experiments/run_sembench_one_seed.py paper/experiments/run_revision6_sembench_audits.py paper/experiments/recompute_curve_only.py paper/experiments/run_experiments.py paper/experiments/cache_sembench_predicates_r6.py paper/experiments/audit_planning.py paper/experiments/completion_verify.py paper/experiments/completion_data.py paper/experiments/run_revision5_experiments.py paper/tests/test_exact.py paper/tests/test_protocol.py paper/src/certineg.py
+28 files already formatted
+
+python3 -m pytest -q
+.....                                                                    [100%]
+5 passed in 11.25s
+
+python3 paper/experiments/completion_verify.py
+{
+  "parent_blocks": 80,
+  "input_rows": 9018,
+  "scores": 18036,
+  "workload_cells": 32,
+  "truncated_fraction": 0.01752051452650255,
+  "remote_elapsed_seconds": 1021.6394815809999,
+  "status": "verified"
+}

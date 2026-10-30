@@ -1,0 +1,6 @@
+{
+  "controlled_oracle_continuous": 0.9541666666666667,
+  "airbags_oracle_continuous": 0.8618481244281794,
+  "multi_predicate_mean_retention": 0.2129107669632174,
+  "multi_predicate_sd_across_predicates": 0.3670887233509598
+}

@@ -1,0 +1,54 @@
+{
+  "dataset_rows_total": 157269,
+  "test_rows": 54892,
+  "targets": {
+    "AIR BAGS": {
+      "threshold": 0.9248144042772267,
+      "precision": 0.8538189175518462,
+      "recall": 0.8007590132827325,
+      "f1": 0.826438188494492,
+      "auc": 0.9911314120833581,
+      "candidate_groups": 1093,
+      "candidate_fdp": 0.1546203110704483,
+      "census_cost": 20269,
+      "group_size_median": 21.0,
+      "group_size_p95": 30.0
+    },
+    "ENGINE AND ENGINE COOLING": {
+      "threshold": 0.9410282173436927,
+      "precision": 0.7840616966580977,
+      "recall": 0.7893374741200828,
+      "f1": 0.78669074026309,
+      "auc": 0.9857995096107537,
+      "candidate_groups": 1100,
+      "candidate_fdp": 0.14636363636363636,
+      "census_cost": 20618,
+      "group_size_median": 21.0,
+      "group_size_p95": 29.0
+    },
+    "VISIBILITY/WIPER": {
+      "threshold": 0.9440773865425984,
+      "precision": 0.8285060975609756,
+      "recall": 0.7086049543676662,
+      "f1": 0.763879128601546,
+      "auc": 0.9931691265214869,
+      "candidate_groups": 1428,
+      "candidate_fdp": 0.16946778711484595,
+      "census_cost": 26042,
+      "group_size_median": 22.0,
+      "group_size_p95": 29.0
+    },
+    "EXTERIOR LIGHTING": {
+      "threshold": 0.9479518063026341,
+      "precision": 0.794949494949495,
+      "recall": 0.6646959459459459,
+      "f1": 0.7240110395584176,
+      "auc": 0.9804385645653472,
+      "candidate_groups": 1643,
+      "candidate_fdp": 0.14607425441265978,
+      "census_cost": 31012,
+      "group_size_median": 22.0,
+      "group_size_p95": 30.0
+    }
+  }
+}
